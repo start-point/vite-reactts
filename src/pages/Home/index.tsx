@@ -1,15 +1,14 @@
+import { connect } from 'dva';
 import * as React from 'react';
 
-interface IHomeProps {}
+export interface IHomeProps {
+  history: any;
+}
 
-const Home: React.FunctionComponent<IHomeProps> = (props) => {
-  console.log(props, 'home');
+const Home = (props: IHomeProps) => {
+  console.log(props, 'props');
 
-  return (
-    <>
-      <p>我是主页面</p>
-    </>
-  );
+  return <button>点我</button>;
 };
 
-export default Home;
+export default connect(({ vite }: { vite: string }) => vite)(Home);

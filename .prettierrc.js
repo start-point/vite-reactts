@@ -1,5 +1,5 @@
 module.exports = {
-  semi: true, // 结尾分号
+  semi: true,
   trailingComma: 'all',
   singleQuote: true,
   printWidth: 90,

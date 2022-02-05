@@ -1,12 +1,11 @@
 import * as React from 'react';
+
 interface IViteProps {}
 
-const Vite: React.FunctionComponent<IViteProps> = (props) => {
-  console.log(1222, props);
-
+const Vite: React.FunctionComponent<IViteProps> = () => {
   return (
     <>
-      <p>hello word</p>
+      <h1>我是vite页面</h1>
     </>
   );
 };
