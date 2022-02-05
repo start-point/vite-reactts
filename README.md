@@ -2,4 +2,4 @@
 
 安装依赖: yarn
 
-项目启动: yarn dev 或 
+项目启动: yarn dev 或 npm run dev
